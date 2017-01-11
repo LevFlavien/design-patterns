@@ -5,9 +5,9 @@ import java.awt.Color;
 import javax.swing.JButton;
 
 
-public class ButtonTheme1 extends JButton {
+public class Theme1Button extends JButton {
     
-    public ButtonTheme1() {
+    public Theme1Button() {
         super("theme 1");
         setBackground(Color.blue);
     }

@@ -4,6 +4,6 @@ package abstractfactory;
 import javax.swing.JButton;
 
 
-public interface ButtonFactory {
+public interface ThemeFactory {
     JButton createButton();
 }
