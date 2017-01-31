@@ -33,15 +33,15 @@ public class Main {
                 
                 int i = jcombo.getSelectedIndex();
                 
-                ButtonFactory button;
+                ThemeFactory theme;
                 
                 if (i == 0) {
-                    button = new ButtonTheme1Factory();
+                    theme = new Theme1();
                 } else {
-                    button = new ButtonTheme2Factory();
+                    theme = new Theme2();
                 }
                 
-                panel.add(button.createButton());
+                panel.add(theme.createButton());
                 panel.revalidate();
             }
         });
